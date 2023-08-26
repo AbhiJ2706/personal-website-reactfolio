@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import "./styles/footer.css";
 
+import Resume from "../../data/resume.pdf"
+
 const Footer = () => {
 	return (
 		<React.Fragment>
@@ -19,18 +21,9 @@ const Footer = () => {
 							<Link to="/projects">Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
+							<a href={Resume}>Resume</a>
 						</li>
 					</ul>
-				</div>
-
-				<div className="footer-credits">
-					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
-					</div>
 				</div>
 			</div>
 		</React.Fragment>

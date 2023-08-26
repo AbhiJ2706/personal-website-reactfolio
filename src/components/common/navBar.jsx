@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
+
+import Resume from "../../data/resume.pdf"
 
 const NavBar = (props) => {
 	const { active } = props;
 
 	return (
 		<React.Fragment>
+			<div className="nav-true-bg"></div>
 			<div className="nav-container">
 				<nav className="navbar">
 					<div className="nav-background">
@@ -23,15 +26,6 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/about">About</Link>
-							</li>
-							<li
-								className={
 									active === "projects"
 										? "nav-item active"
 										: "nav-item"
@@ -41,21 +35,12 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "articles"
+									active === "resume"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/articles">Articles</Link>
-							</li>
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/contact">Contact</Link>
+								<a href={Resume}>Resume</a>
 							</li>
 						</ul>
 					</div>
