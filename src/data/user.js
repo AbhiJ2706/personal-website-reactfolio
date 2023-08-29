@@ -2,35 +2,35 @@ const INFO = {
 	main: {
 		title: "Abhinav's Personal Website",
 		name: "Abhinav Jain",
-		email: "abhijain1778@gmail.com",
+		email: "a252jain@uwaterloo.ca",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/AbhiJ2706",
+		linkedin: "https://linkedin.com/in/abhij2706",
 		email: "a252jain@uwaterloo.ca"
 	},
 
 	homepage: {
 		title: "Hi, I'm Abhinav :)",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm an AI and ML developer passionate about all things software! Through my various co-op and side project experience, I have gained experience learning about the theory, implementation, and application of various AI/ML algorithms and technologies.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Passionate about exploring and understanding new technologies.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I've worked on a variety of projects over the years in various areas such as AI, ML, Data Science, Robotics, Computer Vision, Web Development, Mobile Development, and more! Most of my projects are open source, and I'm always experimenting with new frameworks and programming techniques.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "ANN in C++",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"An implementation of an ANN in C++. Multiple versions starting with a beginner version. Adding various optimizations to speed up computation.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "View Source",
 			link: "https://github.com",
 		},
 
@@ -70,6 +70,37 @@ const INFO = {
 			link: "https://github.com",
 		},
 	],
+
+	work: [
+		{
+			title: "Qualcomm",
+			subtitle: "ML Architecture/Performance Analysis Intern",
+			duration: "Aug. 2023- Present",
+			logo: "https://www.cdnlogo.com/logos/q/51/qualcomm.svg",
+			long: "Working on Hardware architecture for Image processing ML pipelines, designed for leading OEMs in the smartphone industry. Developing robust, scalable performance analysis infrastructure for AI frameworks."
+		},
+		{
+			title: "Qualcomm",
+			subtitle: "Snapdragon AI Processor Intern",
+			duration: "Jan. 2023- Aug. 2023",
+			logo: "https://www.cdnlogo.com/logos/q/51/qualcomm.svg",
+			long: "Developed features for a framework enabling AI-based image processing. Integrated features into production code, wrote tests to ensure thread-safety and scalability. Explored and executed various performance optimizations."
+		},
+		{
+			title: "Cisco Systems",
+			subtitle: "DevOps and Analytics Intern",
+			duration: "May. 2022- Aug. 2022",
+			logo: "https://www.cdnlogo.com/logos/c/79/cisco.svg",
+			long: "Developed a code reviewer recommendation system using collaborative filtering for Cisco's analytics suite. Performed architecture optimizations on CNBot, Cisco's NLP-based chatbot for customer service."
+		},
+		{
+			title: "Cisco Systems",
+			subtitle: "SRv6 Testing Team Intern Intern",
+			duration: "May. 2021- Aug. 2021",
+			logo: "https://www.cdnlogo.com/logos/c/79/cisco.svg",
+			long: "Developed a deep learning pipeline for detecting anomalies in router telemetry data. Wrote data extraction functions for performance measurement testing, wrote unit tests and built network topologies for router testing."
+		},
+	]
 };
 
 export default INFO;
