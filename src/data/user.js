@@ -32,6 +32,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Source",
 			link: "https://github.com",
+			progressText: "Just started"
 		},
 
 		{
@@ -41,6 +42,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			progressText: "Just started"
 		},
 
 		{
@@ -50,6 +52,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			progressText: "Just started"
 		},
 
 		{
@@ -59,6 +62,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			progressText: "In progress"
 		},
 
 		{
@@ -68,6 +72,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			progressText: "Complete"
 		},
 	],
 

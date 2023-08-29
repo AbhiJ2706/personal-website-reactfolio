@@ -3,7 +3,18 @@
 .card {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	outline: 2px solid #f4f4f5;
+	background-color: #000000;
+	outline: 2px solid #101414;
+}
+
+.card:hover .card-title {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.card:hover .card-icon {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
 }
 
 .card-container {
