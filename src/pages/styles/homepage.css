@@ -25,6 +25,7 @@
 
 .homepage-title {
 	width: 85% !important;
+	color: var(--link-color);
 }
 
 .homepage-subtitle {
@@ -89,8 +90,16 @@
 }
 
 .homepage-works {
-	flex-basis: 600px;
+	flex-basis: 1024px;
+	max-width: 1024px;
 	padding-top: 30px;
+}
+
+@media (max-width: 1200px) {
+	.homepage-first-area-right-side {
+		visibility: hidden;
+		display: none;
+	}
 }
 
 @media (max-width: 1024px) {
@@ -110,17 +119,13 @@
 		width: 100% !important;
 		margin-top: 20px;
 		order: 2;
+		color: var(--link-color);
 	}
 
 	.homepage-subtitle {
 		width: 100% !important;
 		margin-top: 10px;
 		order: 3;
-	}
-
-	.homepage-first-area-right-side {
-		width: 100%;
-		order: 1;
 	}
 
 	.homepage-image-container {

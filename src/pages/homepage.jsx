@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
@@ -103,7 +103,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="circuit.avif"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -146,12 +146,12 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<AllProjects />
+							<AllProjects short={true} />
 						</div>
 
 						<div className="homepage-after-title">
 							<div className="homepage-works">
-								<Works />
+								<Works short={true} list={INFO.work} title={"Work Experience Summary"} icon={faBriefcase}  />
 							</div>
 						</div>
 

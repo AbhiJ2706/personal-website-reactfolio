@@ -6,10 +6,11 @@ import INFO from "../../data/user";
 
 import "./styles/allProjects.css";
 
-const AllProjects = () => {
+const AllProjects = (props) => {
+	const { short } = props;
 	return (
 		<div className="all-projects-container">
-			{INFO.projects.map((project, index) => (
+			{INFO.projects.map((project, index) => (short && index >= 6 ? null : (
 				<div className="all-projects-project" key={index}>
 					<Project
 						logo={project.logo}
@@ -18,9 +19,10 @@ const AllProjects = () => {
 						linkText={project.linkText}
 						link={project.link}
 						progressText={project.progressText}
+						color={project.color}
 					/>
 				</div>
-			))}
+			)))}
 		</div>
 	);
 };

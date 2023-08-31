@@ -4,7 +4,8 @@
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
-	height: 100%;
+	height: 40vh;
+	position: relative;
 }
 
 .project a {
@@ -58,19 +59,63 @@
 .project-link-icon {
 	padding-left: 5px;
 	font-size: 13px;
+	bottom: 0;
 }
 
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+	bottom: 0;
 }
 
-.project-progress {
+.project-status-container {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 30px;
+}
+
+.project-just-started {
 	display: flex;
 	align-items: center;
-	color: var(--secondary-color);
+	color: #ff0000;
 	font-size: 12px;
 	padding-top: 20px;
+}
+
+.project-in-progress {
+	display: flex;
+	align-items: center;
+	color: #ffff00;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.project-complete {
+	display: flex;
+	align-items: center;
+	color: #00ff00;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.project:hover .project-just-started {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project:hover .project-in-progress {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project:hover .project-complete {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project:hover .project-title {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
 }
 
 .project-progress-icon {
@@ -83,8 +128,14 @@
 	font-weight: 700;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	.project {
-		height: 300px;
+		height: 45vh;
+	}
+}
+
+@media (max-width: 750px) {
+	.project {
+		height: 50vh;
 	}
 }

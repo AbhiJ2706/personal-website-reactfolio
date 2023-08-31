@@ -4,6 +4,7 @@ import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
 import Projects from "./pages/projects";
+import WorkExperience from "./pages/work";
 import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
@@ -23,6 +24,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/projects" element={<Projects />} />
+				<Route path="/work" element={<WorkExperience />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>

@@ -15,10 +15,10 @@ const Footer = () => {
 							<Link to="/">Home</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/about">About</Link>
+							<Link to="/projects">Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/projects">Projects</Link>
+							<Link to="/work">Work/Volunteering</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<a href={Resume}>Resume</a>

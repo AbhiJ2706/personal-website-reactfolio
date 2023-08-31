@@ -5,7 +5,7 @@ import "../homepage/styles/works.css";
 const Work = (props) => {
     const { logo, title, subtitle, duration, long } = props;
 
-    return (<div className="work">
+    return (<div className={long == "" ? "work-small" : "work-big"}>
         <img
             src={logo}
             alt={title}
@@ -16,6 +16,7 @@ const Work = (props) => {
             {subtitle}
         </div>
         <div className="work-duration">{duration}</div>
+        <div className="work-long">{long}</div>
     </div>)
 };
 

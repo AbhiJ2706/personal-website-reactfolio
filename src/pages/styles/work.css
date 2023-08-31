@@ -1,10 +1,10 @@
-.projects-logo-container {
+.work-exp-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
 }
 
-.projects-logo {
+.work-exp-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
@@ -14,7 +14,7 @@
 	z-index: 999;
 }
 
-.projects-container {
+.work-exp-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -22,18 +22,17 @@
 	padding-top: 120px;
 }
 
+.work-exp-list {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 @media (max-width: 600px) {
-	.projects-container {
+	.work-exp-container {
 		padding-top: 110px;
 	}
 
-	.projects-project {
+	.work-exp-project {
 		width: calc(100% / 2);
-	}
-}
-
-@media (max-width: 1000px) {
-	.projects-title {
-		min-height: 8vh;
 	}
 }

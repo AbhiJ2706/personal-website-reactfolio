@@ -1,28 +1,28 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 import Work from "../common/work";
 
-import INFO from "../../data/user";
-
 import "./styles/works.css";
 
-const Works = () => {
+const Works = (props) => {
+
+	const { short, list, title, icon } = props;
+
 	return (
 		<div className="works">
 			<Card
-				icon={faBriefcase}
-				title="Work Experience"
+				icon={icon}
+				title={title}
 				body={
 					<div className="works-body">
-						{INFO.work.map((job, index) => (
+						{list.map((job, index) => (
 							<Work 
 								logo={job.logo}
 								title={job.title}
 								subtitle={job.subtitle}
 								duration={job.duration}
-								long={""}
+								long={short ? "" : job.long}
 							/>
 						))}
 					</div>

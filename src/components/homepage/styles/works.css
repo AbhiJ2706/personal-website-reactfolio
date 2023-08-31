@@ -2,12 +2,21 @@
 
 .works-body {
 	margin-bottom: 10px;
+	position: relative;
+	width: 100%
 }
 
-.work {
+.work-big {
 	display: flex;
 	padding-bottom: 40px;
-	width: 400px;
+	width: 80vw;
+	min-height: 15vh;
+}
+
+.work-small {
+	display: flex;
+	padding-bottom: 40px;
+	width: 80vw;
 }
 
 .work-image {
@@ -36,9 +45,64 @@
 
 .work-duration {
 	position: absolute;
-	width: 350px;
+	float: right;
+	right: 0;
 	font-size: 12px;
 	padding-top: 20px;
+	padding-right: 20px;
 	text-align: right;
 	color: var(--tertiary-color);
+}
+
+.work-long {
+	position: absolute;
+	font-size: 12px;
+	padding-top: 60px;
+	padding-right: 20px;
+	color: var(--tertiary-color);
+}
+
+@media (max-width: 850px) {
+	.work-big {
+		display: flex;
+		padding-bottom: 40px;
+		width: 80vw;
+		min-height: 20vh;
+	}
+
+	.work-long {
+		position: absolute;
+		font-size: 12px;
+		padding-top: 75px;
+		padding-right: 20px;
+		color: var(--tertiary-color);
+	}
+
+	.work-duration {
+		position: absolute;
+		float: left;
+		left: 0;
+		font-size: 12px;
+		padding-top: 50px;
+		padding-left: 50px;
+		padding-bottom: 100px;
+		text-align: left;
+		color: var(--tertiary-color);
+	}
+
+	.work-small {
+		display: flex;
+		padding-bottom: 40px;
+		width: 80vw;
+		min-height: 11vh;
+	}
+}
+
+@media (max-width: 600px) {
+	.work-big {
+		display: flex;
+		padding-bottom: 40px;
+		width: 80vw;
+		min-height: 25vh;
+	}
 }
