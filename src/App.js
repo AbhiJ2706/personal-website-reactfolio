@@ -23,7 +23,7 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/personal-website-reactfolio" element={<Homepage />} />
+				<Route exact path="/" element={<Homepage />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/work" element={<WorkExperience />} />
 				<Route path="/resume" element={<Resume />} />

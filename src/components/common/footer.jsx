@@ -12,7 +12,7 @@ const Footer = () => {
 				<div className="footer-links">
 					<ul className="footer-nav-link-list">
 						<li className="footer-nav-link-item">
-							<Link to="/personal-website-reactfolio">Home</Link>
+							<Link to="/">Home</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
@@ -24,7 +24,7 @@ const Footer = () => {
 							<a href={Resume}>Resume</a>
 						</li>
 						<li className="footer-nav-link-item">
-							<a>Deployment #6</a>
+							<a>Deployment #8</a>
 						</li>
 					</ul>
 				</div>

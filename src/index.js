@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { hydrate, render } from "react-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -13,16 +13,16 @@ const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
 	hydrate(
 		<React.StrictMode>
-			<BrowserRouter>
+			<HashRouter basename='/'>
 				<App />
-			</BrowserRouter>
+			</HashRouter>
 		</React.StrictMode>, rootElement);
 } else {
 	render(
 		<React.StrictMode>
-			<BrowserRouter>
+			<HashRouter basename='/'>
 				<App />
-			</BrowserRouter>
+			</HashRouter>
 		</React.StrictMode>, rootElement);
 }
 
