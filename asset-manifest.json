@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website-reactfolio/static/css/main.96fab1f4.css",
-    "main.js": "/personal-website-reactfolio/static/js/main.c45a8ed0.js",
+    "main.js": "/personal-website-reactfolio/static/js/main.aab9c783.js",
     "static/js/787.512dd3f2.chunk.js": "/personal-website-reactfolio/static/js/787.512dd3f2.chunk.js",
     "static/media/logo.jpg": "/personal-website-reactfolio/static/media/logo.24aec20c796a872dd1f3.jpg",
     "static/media/brand-icons.svg": "/personal-website-reactfolio/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -24,11 +24,11 @@
     "static/media/outline-icons.woff2": "/personal-website-reactfolio/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/personal-website-reactfolio/index.html",
     "main.96fab1f4.css.map": "/personal-website-reactfolio/static/css/main.96fab1f4.css.map",
-    "main.c45a8ed0.js.map": "/personal-website-reactfolio/static/js/main.c45a8ed0.js.map",
+    "main.aab9c783.js.map": "/personal-website-reactfolio/static/js/main.aab9c783.js.map",
     "787.512dd3f2.chunk.js.map": "/personal-website-reactfolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96fab1f4.css",
-    "static/js/main.c45a8ed0.js"
+    "static/js/main.aab9c783.js"
   ]
 }
