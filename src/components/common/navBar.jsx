@@ -22,7 +22,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/">Home</Link>
+								<Link to="/personal-website-reactfolio">Home</Link>
 							</li>
 							<li
 								className={

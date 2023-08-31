@@ -194,14 +194,14 @@ const INFO = {
 			title: "Waterloo Data Science Club",
 			subtitle: "Transformers/LLMs reading group lead",
 			duration: "Jan. 2023- Aug. 2023",
-			logo: "../uwdsc.png",
+			logo: "uwdsc",
 			long: "Hosted presentations on various papers in AI and ML. Broke down papers and explained them in an easy-to-digest fashion for AI/ML novices. Also headed a team producing technical content for Medium and Instagram."
 		},
 		{
 			title: "TOHacks",
 			subtitle: "Developer",
 			duration: "Aug. 2021- Jan. 2023",
-			logo: "../tohacks.png",
+			logo: "tohacks",
 			long: "Worked on development of the TOHacks 2022 website. Performed administrative tasks during the hackathon."
 		},
 	]

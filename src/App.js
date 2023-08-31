@@ -5,6 +5,7 @@ import ReactGA from "react-ga4";
 import Homepage from "./pages/homepage";
 import Projects from "./pages/projects";
 import WorkExperience from "./pages/work";
+import Resume from "./pages/resume";
 import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
@@ -22,9 +23,10 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/" element={<Homepage />} />
+				<Route path="/personal-website-reactfolio" element={<Homepage />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/work" element={<WorkExperience />} />
+				<Route path="/resume" element={<Resume />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>

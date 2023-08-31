@@ -2,11 +2,7 @@
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
-	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
-	},
+	"homepage": "https://abhij2706.github.io/personal-website-reactfolio",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
@@ -18,7 +14,6 @@
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^13.5.0",
-		"radium": "^0.26.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-ga4": "^2.1.0",
@@ -34,7 +29,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -57,5 +54,9 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.0.0",
+		"react-snap": "^1.23.0"
 	}
 }

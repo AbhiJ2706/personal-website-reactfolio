@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import INFO from "../../data/user";
 
+import PFP from "../../img/logo.jpg"
+
 import "./styles/logo.css";
 
 const Logo = (props) => {
@@ -13,7 +15,7 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={PFP} alt="logo" className="logo" width={width} />
 	);
 
 	return (

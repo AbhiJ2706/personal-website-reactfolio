@@ -20,6 +20,8 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
+import Circuit from "../img/circuit.avif"
+
 import "./styles/homepage.css";
 
 const Homepage = () => {
@@ -103,7 +105,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="circuit.avif"
+											src={Circuit}
 											alt="about"
 											className="homepage-image"
 										/>
