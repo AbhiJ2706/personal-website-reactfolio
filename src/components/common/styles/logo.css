@@ -4,3 +4,10 @@
 	margin: 0;
 	padding: 0;
 }
+
+@media (max-width: 800px) {
+	.logo {
+		display: none;
+		visibility: hidden;
+	}
+}

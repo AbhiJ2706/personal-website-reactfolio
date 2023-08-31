@@ -23,6 +23,9 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<a href={Resume}>Resume</a>
 						</li>
+						<li className="footer-nav-link-item">
+							<a>Deployment #6</a>
+						</li>
 					</ul>
 				</div>
 			</div>

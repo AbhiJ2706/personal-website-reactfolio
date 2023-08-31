@@ -27,7 +27,7 @@ function App() {
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/work" element={<WorkExperience />} />
 				<Route path="/resume" element={<Resume />} />
-				<Route path="*" element={<Notfound />} />
+				<Route path="*" element={<Resume />} />
 			</Routes>
 		</div>
 	);
