@@ -4,13 +4,14 @@ import "../homepage/styles/works.css";
 
 import UWDSC from "../../img/uwdsc.png"
 import TOHacks from "../../img/tohacks.png"
+import WATai from "../../img/watai.jpg"
 
 const Work = (props) => {
     const { logo, title, subtitle, duration, long } = props;
 
     return (<div className={long == "" ? "work-small" : "work-big"}>
         <img
-            src={logo == "uwdsc" ? UWDSC : (logo == "tohacks" ? TOHacks : logo)}
+            src={logo == "uwdsc" ? UWDSC : (logo == "tohacks" ? TOHacks : (logo == "watai" ? WATai : logo))}
             alt={title}
             className="work-image"
         />

@@ -28,7 +28,7 @@
 	}
 
 	.projects-project {
-		width: calc(100% / 2);
+		width: calc(100%);
 	}
 }
 

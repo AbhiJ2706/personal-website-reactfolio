@@ -44,12 +44,13 @@ const WorkExperience = () => {
 						</div>
 
 						<div className="subtitle work-exp-subtitle">
-							I thrive in roles where exploration and creativity are encouraged. 
-							I go deep into any task I take on, considering many possible solutions
-							for a given problem, adapting to various engineering constraints while 
-							extracting performance, and spending ample time prototyping. I take 
-							deep interest in the organizations I work for, and strive to take on 
-							multiple roles as I settle in!
+							I bring creativity and research skills to any role. 
+							I consider many possible solutions for any given problem, weighing as many 
+							different factors as I can, adapting to various engineering constraints 
+							and spending ample time prototyping. I extract performance through clever 
+							optimizations and strive to write simple, readable code wherever possible. I take 
+							deep interest in the organizations I work for, and take on 
+							multiple roles/projects as I become more accustomed to my environment!
 						</div>
 
 						<div className="work-exp-list">

@@ -8,7 +8,7 @@
 }
 
 .homepage-container {
-	padding-top: 25px;
+	padding-top: 40px;
 }
 
 .homepage-first-area {
@@ -92,7 +92,7 @@
 .homepage-works {
 	flex-basis: 1024px;
 	max-width: 1024px;
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 @media (max-width: 1200px) {
@@ -151,5 +151,15 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+}
+
+@media (max-width: 750px) {
+	.homepage-title {
+		width: 100% !important;
+		margin-top: 20px;
+		order: 2;
+		color: var(--link-color);
+		font-size: 20px
 	}
 }

@@ -8,14 +8,14 @@
 
 .work-big {
 	display: flex;
-	padding-bottom: 40px;
+	padding-bottom: 10vh;
 	width: 80vw;
-	min-height: 15vh;
+	min-height: 20vh;
 }
 
 .work-small {
 	display: flex;
-	padding-bottom: 40px;
+	padding-bottom: 10vh;
 	width: 80vw;
 }
 

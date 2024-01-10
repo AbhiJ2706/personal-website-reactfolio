@@ -135,10 +135,6 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						<div className="homepage-projects">
-							<AllProjects short={true} />
-						</div>
-
 						<div className="homepage-after-title">
 							<div className="homepage-works">
 								<Works short={true} list={INFO.work} title={"Work Experience Summary"} icon={faBriefcase}  />

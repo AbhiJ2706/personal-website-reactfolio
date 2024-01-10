@@ -13,9 +13,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Hi, I'm Abhinav :)",
+		title: "Hi, I'm Abhinav 👋",
 		description:
-			"I'm an AI and ML developer passionate about all things software! Through my various co-op and side project experience, I have gained experience learning about the theory, implementation, and application of various AI/ML algorithms. I love learning and I constantly strive to explore new technologies while deepening my knowledge.",
+			"I'm a software developer with a passion for AI and ML! As a 4th year CS student at the University of Waterloo, I have gained SWE and AI/ML development experience alike through co-op, extracurriculars, and side projects. I love learning and I strive to explore new technologies while deepening my knowledge.",
 	},
 
 	about: {
@@ -136,17 +136,6 @@ const INFO = {
 		},
 
 		{
-			title: "Tensorflow Tic-Tac-Toe",
-			description:
-				"An Artificial Neural Network developed using Keras, and trained on a custom dataset, which plays Tic-Tac-Toe.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Source",
-			link: "https://github.com/AbhiJ2706/tic-tac-toe-tensorflow-AI",
-			progressText: "Complete",
-			color: "white"
-		},
-
-		{
 			title: "This is not a newspaper",
 			description:
 				"My first hackathon project, a new, satisfying way of aggregating and displaying news!",
@@ -161,10 +150,10 @@ const INFO = {
 	work: [
 		{
 			title: "Qualcomm",
-			subtitle: "ML Architecture/Performance Analysis Intern",
-			duration: "Aug. 2023- Present",
+			subtitle: "AI Performance Analysis Intern",
+			duration: "Aug. 2023- Dec. 2023",
 			logo: "https://www.cdnlogo.com/logos/q/51/qualcomm.svg",
-			long: "Working on Hardware architecture for Image processing ML pipelines, designed for leading OEMs in the smartphone industry. Developing robust, scalable performance analysis infrastructure for AI frameworks."
+			long: "Developed robust, scalable performance analysis models for embedded CNN-based image processing pipelines. Designed data structures for handling and querying large volumes of software and hardware profiling data."
 		},
 		{
 			title: "Qualcomm",
@@ -191,11 +180,18 @@ const INFO = {
 
 	extracurriculars: [
 		{
+			title: "WAT.ai",
+			subtitle: "Software Developer",
+			duration: "Oct. 2023- Present",
+			logo: "watai",
+			long: "Designing a deep reinforcement learning model to trade stocks based on price predictions and sentiment analysis."
+		},
+		{
 			title: "Waterloo Data Science Club",
-			subtitle: "Transformers/LLMs reading group lead",
+			subtitle: "VP of Data Analysis/Reading Group Lead",
 			duration: "Jan. 2023- Aug. 2023",
 			logo: "uwdsc",
-			long: "Hosted presentations on various papers in AI and ML. Broke down papers and explained them in an easy-to-digest fashion for AI/ML novices. Also headed a team producing technical content for Medium and Instagram."
+			long: "Led a team of 20+ developers producing data analysis content for Medium and Instagram. Hosted presentations on various papers in AI and ML. Broke down papers and explained them in an easy-to-digest fashion for AI/ML novices."
 		},
 		{
 			title: "TOHacks",

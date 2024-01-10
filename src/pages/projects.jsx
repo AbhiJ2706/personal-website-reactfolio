@@ -44,8 +44,8 @@ const Projects = () => {
 
 						<div className="subtitle projects-subtitle">
 							I've worked on a variety of projects over the years,
-							exploring different areas of programming and technology
-							as I improve my programming skills and knowledge.
+							exploring different technologies
+							as I improve my programming skills and deepen my knowledge in various fields.
 							Many of these projects are open-source and available for
 							others to explore and contribute to.
 						</div>
