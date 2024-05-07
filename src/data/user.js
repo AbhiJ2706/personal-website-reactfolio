@@ -26,6 +26,17 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Panorama Builder",
+			description:
+				"An algorithm to stitch images together to form a panorama, or to align the foreground of different images!",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Source",
+			link: "https://github.com/AbhiJ2706/panoramas",
+			progressText: "Just started",
+			color: "white"
+		},
+		
+		{
 			title: "ANN in Python",
 			description:
 				"An implementation of an ANN in Python, using only NumPy. Multiple versions starting with a beginner version. Adding various optimizations to speed up computation.",
