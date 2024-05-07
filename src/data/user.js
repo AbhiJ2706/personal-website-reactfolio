@@ -160,6 +160,13 @@ const INFO = {
 
 	work: [
 		{
+			title: "Amazon",
+			subtitle: "Software Development Engineering Intern",
+			duration: "May 2024- present",
+			logo: "https://www.cdnlogo.com/logos/q/51/amazon.svg",
+			long: "Analyzing customer insights to improve recommendations!"
+		},
+		{
 			title: "Qualcomm",
 			subtitle: "AI Performance Analysis Intern",
 			duration: "Aug. 2023- Dec. 2023",
