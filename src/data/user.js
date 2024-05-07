@@ -26,14 +26,25 @@ const INFO = {
 
 	projects: [
 		{
-			title: "ANN in C++",
+			title: "Workout Timer",
 			description:
-				"An implementation of an ANN in C++. Multiple versions starting with a beginner version. Adding various optimizations to speed up computation.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",
+				"A programmable timer for your iPhone!",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
 			linkText: "View Source",
-			link: "https://github.com/AbhiJ2706/ann_in_cpp",
-			progressText: "Just started",
-			color: "#49cbff"
+			link: "https://github.com/AbhiJ2706/workout-timer",
+			progressText: "In progress",
+			color: "white"
+		},
+
+		{
+			title: "ANN in Python",
+			description:
+				"An implementation of an ANN in Python, using only NumPy. Multiple versions starting with a beginner version. Adding various optimizations to speed up computation.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Source",
+			link: "https://github.com/AbhiJ2706/numpy_ann",
+			progressText: "In progress",
+			color: "white"
 		},
 
 		{
@@ -153,32 +164,39 @@ const INFO = {
 			subtitle: "AI Performance Analysis Intern",
 			duration: "Aug. 2023- Dec. 2023",
 			logo: "https://www.cdnlogo.com/logos/q/51/qualcomm.svg",
-			long: "Developed robust, scalable performance analysis models for embedded CNN-based image processing pipelines. Designed data structures for handling and querying large volumes of software and hardware profiling data."
+			long: "I developed robust, scalable performance analysis pipelines for embedded CNN-based image processing algorithms. I also designed data structures for handling and querying large volumes of software and hardware profiling data."
 		},
 		{
 			title: "Qualcomm",
 			subtitle: "Snapdragon AI Processor Intern",
 			duration: "Jan. 2023- Aug. 2023",
 			logo: "https://www.cdnlogo.com/logos/q/51/qualcomm.svg",
-			long: "Developed features for a framework enabling AI-based image processing. Integrated features into production code, wrote tests to ensure thread-safety and scalability. Explored and executed various performance optimizations."
+			long: "I developed features for an embedded framework accelerating AI-based image processing. I integrated features into production code and wrote tests to ensure thread-safety and scalability. I also explored and executed various performance optimizations, and spearheaded development of an ELT pipeline for automated performance measurement."
 		},
 		{
 			title: "Cisco Systems",
 			subtitle: "DevOps and Analytics Intern",
 			duration: "May. 2022- Aug. 2022",
 			logo: "https://www.cdnlogo.com/logos/c/79/cisco.svg",
-			long: "Developed a code reviewer recommendation system using collaborative filtering for Cisco's analytics suite. Performed architecture optimizations on CNBot, Cisco's NLP-based chatbot for customer service."
+			long: "I Developed a code reviewer recommendation system using collaborative filtering for Cisco's analytics suite. To do this, I tested a variety of feature engineering tactics and implementations of collaborative filtering. I also performed architecture optimizations on CNBot, Cisco's NLP-based chatbot for customer service."
 		},
 		{
 			title: "Cisco Systems",
 			subtitle: "SRv6 Testing Team Intern",
 			duration: "May. 2021- Aug. 2021",
 			logo: "https://www.cdnlogo.com/logos/c/79/cisco.svg",
-			long: "Developed a deep learning pipeline for detecting anomalies in router telemetry data. Wrote data extraction functions for performance measurement testing, wrote unit tests and built network topologies for router testing."
+			long: "I Developed a deep learning pipeline for detecting anomalies in router telemetry data. I tested a variety of ML and DL algorithms, weighing different factors such as accuracy, configurability, performance drift over time, and more. I also wrote data extraction functions for performance measurement testing, wrote unit tests and built network topologies for router testing."
 		},
 	],
 
 	extracurriculars: [
+		{
+			title: "University of Waterloo",
+			subtitle: "Undergraduate Research Assistant",
+			duration: "Jan. 2024- Present",
+			logo: "uw",
+			long: "Implementing, benchmarking, and optimizing LLM encoding on Apple hardware using Swift and CoreML."
+		},
 		{
 			title: "WAT.ai",
 			subtitle: "Software Developer",
