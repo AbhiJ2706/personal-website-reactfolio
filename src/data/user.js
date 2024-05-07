@@ -163,7 +163,7 @@ const INFO = {
 			title: "Amazon",
 			subtitle: "Software Development Engineering Intern",
 			duration: "May 2024- present",
-			logo: "https://www.cdnlogo.com/logos/q/51/amazon.svg",
+			logo: "https://www.cdnlogo.com/logos/q/51/amazon-icon.svg",
 			long: "Analyzing customer insights to improve recommendations!"
 		},
 		{
