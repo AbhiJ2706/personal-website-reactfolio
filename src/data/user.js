@@ -26,17 +26,6 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Workout Timer",
-			description:
-				"A programmable timer for your iPhone!",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
-			linkText: "View Source",
-			link: "https://github.com/AbhiJ2706/workout-timer",
-			progressText: "In progress",
-			color: "white"
-		},
-
-		{
 			title: "ANN in Python",
 			description:
 				"An implementation of an ANN in Python, using only NumPy. Multiple versions starting with a beginner version. Adding various optimizations to speed up computation.",
@@ -44,6 +33,17 @@ const INFO = {
 			linkText: "View Source",
 			link: "https://github.com/AbhiJ2706/numpy_ann",
 			progressText: "In progress",
+			color: "white"
+		},
+		
+		{
+			title: "Workout Timer",
+			description:
+				"A programmable timer for your iPhone!",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+			linkText: "View Source",
+			link: "https://github.com/AbhiJ2706/workout-timer",
+			progressText: "Complete",
 			color: "white"
 		},
 
@@ -54,7 +54,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Source",
 			link: "https://github.com/AbhiJ2706/ds-workshops",
-			progressText: "In progress",
+			progressText: "Complete",
 			color: "white"
 		},
 
