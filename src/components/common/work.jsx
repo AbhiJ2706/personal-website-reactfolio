@@ -6,7 +6,7 @@ import UWDSC from "../../img/uwdsc.png"
 import TOHacks from "../../img/tohacks.png"
 import WATai from "../../img/watai.jpg"
 import UW from "../../img/uw.png"
-import UWRL from "../../img/uwrl.png"
+import UWRL from "../../img/uwrl.jpg"
 
 const Work = (props) => {
     const { logo, title, subtitle, duration, long } = props;
