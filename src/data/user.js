@@ -178,6 +178,13 @@ const INFO = {
 			long: "Analyzing customer insights to improve recommendations!"
 		},
 		{
+			title: "University of Waterloo",
+			subtitle: "Undergraduate Research Assistant",
+			duration: "Jan. 2024- Apr. 2024",
+			logo: "uw",
+			long: "Implemented and optimized LLM encoding on Apple hardware using Swift and CoreML."
+		},
+		{
 			title: "Qualcomm",
 			subtitle: "AI Performance Analysis Intern",
 			duration: "Aug. 2023- Dec. 2023",
@@ -209,16 +216,16 @@ const INFO = {
 
 	extracurriculars: [
 		{
-			title: "University of Waterloo",
-			subtitle: "Undergraduate Research Assistant",
-			duration: "Jan. 2024- Present",
-			logo: "uw",
-			long: "Implementing, benchmarking, and optimizing LLM encoding on Apple hardware using Swift and CoreML."
+			title: "UW Reality Labs",
+			subtitle: "Deep Learning Developer",
+			duration: "May 2024- Present",
+			logo: "uwrl",
+			long: "Designing a deep reinforcement learning model to trade stocks based on price predictions and sentiment analysis."
 		},
 		{
 			title: "WAT.ai",
-			subtitle: "Software Developer",
-			duration: "Oct. 2023- Present",
+			subtitle: "Quantitative Developer",
+			duration: "Oct. 2023- Apr. 2024",
 			logo: "watai",
 			long: "Designing a deep reinforcement learning model to trade stocks based on price predictions and sentiment analysis."
 		},
