@@ -220,7 +220,7 @@ const INFO = {
 			subtitle: "Deep Learning Developer",
 			duration: "May 2024- Present",
 			logo: "uwrl",
-			long: "Designing a deep reinforcement learning model to trade stocks based on price predictions and sentiment analysis."
+			long: "Designing a deep learning model to recognize custom hand gestures captured using a Meta Quest VR headset."
 		},
 		{
 			title: "WAT.ai",
