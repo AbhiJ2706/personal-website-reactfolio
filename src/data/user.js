@@ -170,12 +170,19 @@ const INFO = {
 	],
 
 	work: [
+        {
+			title: "BetterUp",
+			subtitle: "Machine Learning and Data Engineering Intern",
+			duration: "Sep. 2024- present",
+			logo: "https://api.getkoala.com/web/companies/betterup.com/logo",
+			long: "Improving ML-based processing pipelines and infrastructure!"
+		},
 		{
 			title: "Amazon",
 			subtitle: "Software Development Engineering Intern",
-			duration: "May 2024- present",
+			duration: "May 2024- Aug. 2024",
 			logo: "https://www.cdnlogo.com/logos/a/1/amazon-icon.svg",
-			long: "Analyzing customer insights to improve recommendations!"
+			long: "Designed an LLM-based agent to improve lead retrieval for ad sales managers, leading to millions of dollars in revenue."
 		},
 		{
 			title: "University of Waterloo",
@@ -188,14 +195,14 @@ const INFO = {
 			title: "Qualcomm",
 			subtitle: "AI Performance Analysis Intern",
 			duration: "Aug. 2023- Dec. 2023",
-			logo: "https://www.cdnlogo.com/logos/q/51/qualcomm.svg",
+			logo: "https://www.cdnlogo.com/logos/q/6/qualcomm.svg",
 			long: "I developed robust, scalable performance analysis pipelines for embedded CNN-based image processing algorithms. I also designed data structures for handling and querying large volumes of software and hardware profiling data."
 		},
 		{
 			title: "Qualcomm",
 			subtitle: "Snapdragon AI Processor Intern",
 			duration: "Jan. 2023- Aug. 2023",
-			logo: "https://www.cdnlogo.com/logos/q/51/qualcomm.svg",
+			logo: "https://www.cdnlogo.com/logos/q/6/qualcomm.svg",
 			long: "I developed features for an embedded framework accelerating AI-based image processing. I integrated features into production code and wrote tests to ensure thread-safety and scalability. I also explored and executed various performance optimizations, and spearheaded development of an ELT pipeline for automated performance measurement."
 		},
 		{
@@ -215,13 +222,6 @@ const INFO = {
 	],
 
 	extracurriculars: [
-		{
-			title: "UW Reality Labs",
-			subtitle: "Deep Learning Developer",
-			duration: "May 2024- Present",
-			logo: "uwrl",
-			long: "Designing a deep learning model to recognize custom hand gestures captured using a Meta Quest VR headset."
-		},
 		{
 			title: "WAT.ai",
 			subtitle: "Quantitative Developer",
