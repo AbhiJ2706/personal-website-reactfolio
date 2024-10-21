@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
 
-import Resume from "../../data/resume.pdf"
-
 const NavBar = (props) => {
 	const { active } = props;
 
@@ -49,7 +47,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<a href={Resume}>Resume</a>
+								<></>
 							</li>
 						</ul>
 					</div>

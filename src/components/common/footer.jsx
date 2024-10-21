@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import "./styles/footer.css";
 
-import Resume from "../../data/resume.pdf"
-
 const Footer = () => {
 	return (
 		<React.Fragment>
@@ -19,9 +17,6 @@ const Footer = () => {
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/work">Work/Volunteering</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<a href={Resume}>Resume</a>
 						</li>
 					</ul>
 				</div>

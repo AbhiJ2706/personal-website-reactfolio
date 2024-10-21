@@ -4,8 +4,6 @@ import { Helmet } from "react-helmet";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
-import RESUME from "../data/resume.pdf"
-
 class Resume extends Component {
     constructor(props) {
         super(props)
@@ -19,7 +17,7 @@ class Resume extends Component {
 
     render() {
         return (
-            <a ref={this.button} href={RESUME}>Resume</a>
+            <></>
         );
     }
 };
